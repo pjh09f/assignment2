@@ -1,0 +1,68 @@
+=== Annotations ===
+Git Lab Tutorials:
+- Learn Git Branching (Intro + Remotes): 10/22/2025
+- Visualizing Git: 11/3/2025
+- try.github.io: 11/3/2025 (reviewed Git Basics)
+
+GitHub Account Setup: around Jan 2025
+Git Client Setup: Verified Git 2.39.5 already installed on macOS from before
+GitHub Repo Access: https://github.com/pjh09f/assignment2
+====================
+
+
+
+
+
+5.1 (AKA 3.E.a)
+paulharrington@Pauls-MacBook-Pro assignment2 % mkdir docs
+paulharrington@Pauls-MacBook-Pro assignment2 % git status > docs/status.txt
+
+paulharrington@Pauls-MacBook-Pro assignment2 % git add docs/status.txt
+paulharrington@Pauls-MacBook-Pro assignment2 % git commit -m "added status.txt file" 
+[master c4ba893] added status.txt file
+ 1 file changed, 8 insertions(+)
+ create mode 100644 docs/status.txt
+paulharrington@Pauls-MacBook-Pro assignment2 % git push origin master                           
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 467 bytes | 467.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pjh09f/assignment2.git
+   d961025..c4ba893  master -> master
+
+5.2
+9
+
+5.3 
+11/32025 at 12:30 pm EST
+
+
+5.4 
+- Branches let developers work on new features or fixes without affecting the main code
+- It makes it easier to integrate work from different people later.
+
+5.5
+- git log lists past commits and their details
+- git status shows what any changes in the working directory since the last commit.
+
+5.6 
+git log --follow Vehicle.h
+
+5.7
+git log --grep="file"
+
+5.8
+- Inheritance: one class reuses or extends another class' code.
+- Polymorphism: objects share a common interface but behave differently.
+- Encapsulation: internal data and shows only what’s necessary.
+
+5.9 
+- The Integration Manager workflow has one person handling merges from everyone’s (public) repos into the main repo
+- The Dictator & Lieutenants model is more spread out (lieutenants deal with groups of developers while the dictator integrates everything into the central repo.
+
+5.10
+With 100 developers, the Dictator & Lieutenants workflow "bottlenecks," so it's more organized.
+So, each lieutenant works with a smaller set of merges, conflicts, etc. before passing it up to the dictator.
